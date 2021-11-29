@@ -9,3 +9,10 @@ if (mediaAritmetica > 20) {
 } else {
     console.log('Exercício 4: Média menor ou igual a 20')
 }
+let maiorNumero = 0
+for (let i = 0; i < numbers.length; i += 1) {    
+    if (numbers[i] > maiorNumero ) {
+        maiorNumero = numbers[i]
+    } 
+}
+console.log('Exercício 4: O maior número da lista é' , maiorNumero)
