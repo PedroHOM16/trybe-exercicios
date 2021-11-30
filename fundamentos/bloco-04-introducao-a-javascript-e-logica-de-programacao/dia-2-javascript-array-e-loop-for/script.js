@@ -16,6 +16,7 @@ for (let i = 0; i < numbers.length; i += 1) {
     } 
 }
 console.log('Exercício 5: O maior número da lista é' , maiorNumero)
+
 let quantidadeImpar = 0
 for (i = 0; i < numbers.length; i += 1) {
     if (numbers[i] % 2 !== 0) {
@@ -28,6 +29,7 @@ if (quantidadeImpar !== 0) {
     console.log("Exercício 6: Não há nenhum número ímpar!")
 }
 
+
 let menorNumero = 10 ** 100000000
 for(i = 0; i < numbers.length; i += 1) {
     if (numbers[i] < menorNumero) {
@@ -35,3 +37,15 @@ for(i = 0; i < numbers.length; i += 1) {
     }
 }
 console.log('exercício 7: O menor número da lista é', menorNumero)
+
+let arrayNova = []
+for (let iNew = 0; iNew < 25; iNew += 1) {
+    arrayNova.push(iNew + 1)
+}
+console.log('Exercício 8: ', arrayNova)
+
+let divisao = []
+for (i = 0; i < arrayNova.length; i += 1) {
+    divisao.push(i / 2)
+}
+console.log('Exercício 9: ', divisao)
