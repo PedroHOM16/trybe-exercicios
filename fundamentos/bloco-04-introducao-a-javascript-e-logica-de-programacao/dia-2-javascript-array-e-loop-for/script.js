@@ -27,3 +27,11 @@ if (quantidadeImpar !== 0) {
 } else {
     console.log("Exercício 6: Não há nenhum número ímpar!")
 }
+
+let menorNumero = 10 ** 100000000
+for(i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] < menorNumero) {
+        menorNumero = numbers[i]
+    }
+}
+console.log('exercício 7: O menor número da lista é', menorNumero)
