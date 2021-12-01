@@ -13,4 +13,18 @@
     console.log(resultado)
  } 
 
- verificaPalindromo('arara')
+ //verificaPalindromo('arara')
+
+ //Ex2
+ function maiorNumero(numeros) {
+     let maiorNumeroDoArray = 0
+     numeros = [numeros]
+     for (let i = 0; i < numeros.length; i += 1) {
+        if (numeros[i] > maiorNumeroDoArray) {
+            maiorNumeroDoArray = numeros[i]
+        }
+     }
+     console.log(maiorNumeroDoArray)
+ }
+
+ maiorNumero(1, 2, 54, 16, 100, 87, 500, 21, 3, 501)
